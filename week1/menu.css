@@ -1,0 +1,18 @@
+.Main h2{
+    font-family: sans-serif;
+    margin-left: 50px;
+    color: #fff;
+}
+.Main li{
+    margin-top: 10px;
+    color: #fff;
+    margin-left: 50px;
+}
+.Main a{
+    color: #fff;
+    font-family: sans-serif;
+}
+html{
+    background-image: url('./image/photo-1531923981709-9fd5eb67572c.jpg');
+    background-size: cover;
+}

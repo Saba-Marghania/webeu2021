@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    margin-top: 200px;
+    margin-left: 200px;
+}
+h4{
+    color: blue;
+}
+.name{
+    color: #000;
+    font-size: 28px;
+}
+.lastname{
+    font-size: 24px;
+    color: green;
+}
+.hobby{
+    font-size: 18px;
+    color: gray;
+}
+span{
+    margin-left: 5px;
+}

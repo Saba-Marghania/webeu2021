@@ -1,0 +1,23 @@
+html{
+    /* width: 100%; */
+    height: 100%;
+    background-image: url('./image/download.jpg');
+    background-size: cover;
+}
+.container__header h2{
+    color: green;
+}
+.container__header li{
+    font-weight: bold;
+}
+.about-georgia h2{
+    text-align: center;
+}
+.imereti  h2{
+    text-align: center;
+
+}
+.qartli h2{
+    text-align: center;
+
+}
