@@ -1,0 +1,95 @@
+.container{
+    width: 600px;
+    border: 1px solid black;
+    margin: 50px auto;
+    padding: 20px;
+}
+.container p{
+    padding-left: 5px;
+}
+.container h2{
+    padding-left: 5px;
+}
+.dotted{
+    border: 3px dotted aqua;
+}
+.dashed{
+    border: 3px dashed aqua;
+}
+.solid{
+    border: 3px solid aqua;
+}
+.double{
+    border: 3px double aqua;
+
+}
+.groove{
+    border: 3px groove aqua;
+
+}
+.ridge{
+    border: 3px ridge aqua;
+
+}
+.inset{
+    border: 3px inset aqua;
+
+}
+.outset{
+    border: 3px outset aqua;
+    
+}
+.none{
+    border: 3px none ;
+
+}
+.hidden{
+    border: 3px hidden  ;
+}
+.mix{
+    border-style: dotted dashed solid double;
+    border-color: aqua;
+}
+.b-radius1{
+    width: 250px;
+    height: 150px;
+    border-radius: 30px;
+    background-color: brown;
+    border: 2px solid black;
+}
+.b-radius1 h4{
+    text-align: center;
+    padding-top: 30px;
+}
+.b-radius2{
+    background-color: white;
+}
+.b-radius3{
+    background-image: url('./pictures/download.jpg');
+}
+.radius{
+    width: 250px;
+    border: 2px solid black;
+    background-color: brown;
+    height: 150px;
+    border-radius: 15px 50px 30px 5px;
+}
+.radius1{
+    border-radius: 15px 50px 30px;
+}
+.radius2{
+    border-radius: 15px 50px;
+}
+.ellipse{
+    width: 250px;
+    border: 2px solid black;
+    background-color: brown;
+    height: 150px;
+    border-radius: 50px/15px;
+}
+.ellipse1{
+    border-radius: 15px/50px;
+}
+.ellipse2{
+    border-radius: 50%;
+}

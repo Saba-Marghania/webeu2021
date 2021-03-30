@@ -1,0 +1,59 @@
+.box{
+    width: 500px;
+    height: 400px;
+    border: 1px solid black;
+    margin: 20px auto;
+}
+.normal{
+    font-style: normal;
+
+}
+.italic{
+    font-style: italic;
+
+}
+.oblique{
+    font-style: oblique;
+}
+.box1{
+    text-align: center;
+    background-color: gray;
+}
+.box2 h1{
+    color: red;
+    text-align: right;
+}
+
+.girls{
+    text-align: right;
+}
+.border-girls{
+    width: 250px;
+    border: 3px solid red;
+}
+.boys{
+    text-align: right;
+
+}
+.border-boys{
+    width: 250px;
+    border: 3px solid blue;
+}
+.box4 h1{
+    text-decoration: overline;
+}
+.box4 h2{
+    text-decoration:  line-through;
+}
+.box4 h3{
+    text-decoration: underline;
+}
+.box5 h3{
+    padding-left: 10px;
+}
+.box5 li{
+    padding-left: 10px;
+    letter-spacing: 4px;
+}
+
+
