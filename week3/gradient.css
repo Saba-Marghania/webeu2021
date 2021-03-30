@@ -1,0 +1,75 @@
+ h1{
+    text-align: center;
+}
+.cont{
+    display: flex;
+    width: 830px;
+    height: 130px;
+    border: 2px solid black;
+    margin: 0 auto;
+}
+.cont-2{
+    display: flex;
+    width: 830px;
+    height: 130px;
+    border: 2px solid black;
+    margin: 20px auto;
+}
+.grad-1{
+    width: 150px;
+    border: 2px solid black;
+    height: 80px;
+    margin: 10px auto;
+    background-image: linear-gradient(to right, red ,blue, yellow);
+}
+.grad-2{
+    background-image: linear-gradient(to top, red ,blue, yellow);
+    width: 150px;
+    border: 2px solid black;
+    height: 80px;
+    margin: 10px auto;
+}
+.grad-3{
+    width: 150px;
+    border: 2px solid black;
+    height: 80px;
+    margin: 10px auto;
+    background-image: linear-gradient(to top left, red,blue, yellow);
+}
+.grad-4{
+    width: 150px;
+    border: 2px solid black;
+    height: 80px;
+    background-image: linear-gradient(to bottom left, red,blue, yellow);
+    margin: 10px auto;
+}
+.grad1{
+    width: 150px;
+    border: 2px solid black;
+    height: 80px;
+    margin: 10px auto;
+    background-image: radial-gradient(red, yellow, green);
+}
+.grad2{
+    background-image: radial-gradient( red 60%, yellow 5%, green 35%);
+    width: 150px;
+    border: 2px solid black;
+    height: 80px;
+    margin: 10px auto;
+}
+.grad3{
+    width: 150px;
+    border: 2px solid black;
+    height: 80px;
+    margin: 10px auto;
+    background-image:repeating-radial-gradient(red , yellow 10%, green 40%);
+
+}
+.grad4{
+    width: 150px;
+    border: 2px solid black;
+    height: 80px;
+    margin: 10px auto;
+    background-image: radial-gradient( red 20%, yellow 20%, green 30%);
+    
+}
