@@ -1,7 +1,5 @@
 body{
-    background-image: url("./image/html.png");
-    background-size: cover;
-    background-repeat: no-repeat;
+    background: rgb(137, 165, 14);
 }
 .container{
     width: 100%;
