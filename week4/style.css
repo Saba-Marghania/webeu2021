@@ -1,0 +1,44 @@
+table{
+    /* width: 900px; */
+    /* height: 700px; */
+    border: 1px solid black;
+}
+td{
+    border: 1px solid black;
+
+}
+.background{
+    background-color: green;
+    height: 40px;
+}
+.top{
+    text-align: center;
+    height: 40px;
+}
+.first-cont table{
+    width: 900px;
+    height: 700px;
+}
+.second-cont {
+ margin-top: 50px;
+}
+.second-cont table{
+    width: 900px;
+    height: 700px;
+}
+.third-cont{
+    margin-top: 50px;
+
+}
+.third-cont{
+width: 900px;
+height: 700px;
+}
+.fourth-cont{
+    margin-top: 50px;
+}
+.fourth-cont table{
+width: 900px;
+height: 600px;
+
+}
