@@ -1,0 +1,87 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 300px;
+    border: 1px solid black;
+}
+.test{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: 80px;
+    border-top: 4px solid yellow;
+    border-left: 6px solid green;
+    border-right: none;
+    border-bottom: 8px solid yellow;
+}
+.test h1{
+    font-size: 42px;
+    color: blue;
+    text-decoration: line-through;
+    border-bottom: 5px solid blue;
+    background-color: red;
+}
+.test p{
+    font-weight: bold;
+}
+.test2{
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    margin-top: 50px;
+    width: 500px;
+    height: 30px;
+    border: 5px dotted green;
+
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  th{
+      height: 40px;
+  }
+  td{
+      height: 40px;
+  }
+
+.tables{
+    margin-bottom: 100px;
+}
+.figures{
+    display: flex;
+    justify-content: space-between;
+}
+.one{
+    width: 150px;
+    height: 150px;
+    border: 3px solid yellow;
+    border-top-left-radius: 150px;
+    background-color: purple;
+}
+.two{
+    width: 150px;
+    height: 150px;
+     border: 3px solid yellow;
+    background-color: purple;
+    border-radius: 30px;
+}
+.three{
+    width: 150px;
+    height: 150px;
+     border: 3px solid yellow;
+    background-color: purple;
+    border-top-left-radius: 150px;
+    border-bottom-right-radius: 150px;
+}
+.four{
+    width: 150px;
+    height: 150px;
+     border: 3px solid yellow;
+    background-color: purple;
+    border-top-left-radius: 150px;
+    border-top-right-radius: 150px;
+}
