@@ -1,0 +1,94 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 500px;
+    height: 400px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgba(206, 204, 204, 0.9);
+}
+.container h1{
+    color: #fff;
+    font-family: sans-serif;
+}
+.rem_pass_input{
+    width: 20px !important;
+}
+.rem_pass{
+    margin-left: -95px;
+}
+form{
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    align-items: center;
+}
+form label{
+    font-family:sans-serif;
+    color: #fff;
+}
+input{
+    padding: 7px;
+    border: 1px solid rgb(161, 159, 159);
+    outline: none;
+    margin-top: 5px;
+    width: 250px;
+    border-radius: 5px;
+    background-color: #f1efef;
+}
+button{
+    width: 270px;
+    border-radius: 5px;
+    background-color: red;
+    height: 40px;
+    color: #fff;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+}
+.container a{
+    margin-top: 15px;
+}
+.davaleba2{
+    display: flex;
+    flex-direction: column;
+    color: black;
+    width: 800px;
+    height: 500px;
+    margin: 0 auto;
+    border: 2px solid gray;
+}
+.davaleba2 h2{
+    color: gray;
+    margin-left: 50px;
+}
+.davaleba2__input {
+    display: flex;
+    width: 550px;
+    font-family: sans-serif;
+    align-items: center;
+}
+.davaleba2__inputs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.davaleba2__input h4{
+    margin-left: 20px;
+    width: 150px;
+    color: rgb(136, 133, 133);
+}
+.davaleba2__input input::placeholder{
+    color: rgb(146, 145, 145);
+
+}
+.davaleba2__input input{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+    border-radius: 0;
+    background-color: #fff;
+}
