@@ -30,7 +30,7 @@ form label{
     font-family:sans-serif;
     color: #fff;
 }
-input{
+.container input{
     padding: 7px;
     border: 1px solid rgb(161, 159, 159);
     outline: none;
@@ -39,7 +39,7 @@ input{
     border-radius: 5px;
     background-color: #f1efef;
 }
-button{
+.container button{
     width: 270px;
     border-radius: 5px;
     background-color: red;
@@ -91,4 +91,57 @@ button{
     border-bottom: 1px solid gray;
     border-radius: 0;
     background-color: #fff;
+}
+.davaleba3{
+    width: 800px;
+    height: 500px;
+    margin: 30px auto;
+    border: 1px solid green;
+    background-color: rgb(209, 207, 207);
+}
+.davaleba3_input{
+    margin-top: 15px;
+}
+.davaleba3_input input{
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid green;
+}
+.davaleba3_input textarea{
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid green;
+}
+.davaleba3__cont{
+    display: flex;
+    justify-content: space-between;
+    width: 700px;
+    border-bottom: 1px solid green;
+    margin: 0 auto;
+}
+.davaleba3_question{
+    font-family: sans-serif;
+}
+.davaleba3_answer{
+    display: flex;
+    align-items: center;
+    font-family: sans-serif;
+    height: 20px;
+}
+.davaleba3_answer p{
+    color: green;
+}
+.davaleba3__bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+.davaleba3__bottom button{
+    width: 200px;
+    height: 40px;
+    background-color: green ;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
 }

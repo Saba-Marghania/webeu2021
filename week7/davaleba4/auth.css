@@ -1,0 +1,134 @@
+.auth{
+    border: 1px solid black;
+    width: 1000px;
+    height: 800px;
+    margin: 0 auto;
+}
+.auth__top__main img{
+    width: 1000px;
+    height: 200px;
+}
+.auth__top{
+    display: flex;
+    background-color: rgb(102, 101, 101);
+    margin-top: -5px;
+    height: 50px;
+}
+.auth__top li{
+    list-style: none;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.auth__top a{
+    color: rgb(243, 237, 237);
+    text-decoration: none;
+
+}
+.auth__body__left{
+    width: 200px;
+    height: 250px;
+    background-color: grey;
+}
+.auth__body{
+    display: flex;
+}
+.auth__body__left li{
+    padding-top: 25px;
+    padding-left: 15px;
+    list-style: none;
+}
+.auth__body__left__links{
+    padding-bottom: 20px;
+}
+.auth__body__left a{
+    color: rgb(241, 231, 231);
+    text-decoration: none;
+}
+.auth__body__left__bg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(124, 99, 99);
+    height: 313px;
+}
+.auth__body__left__bg h1{
+    color: white;
+    font-size: 3rem;
+    transform: rotate(20deg);
+}
+.auth__body__right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.auth__body__right h1{
+    font-family: sans-serif;
+    color: gray;
+}
+.copyright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    height: 40px;
+    border: 1px solid black;
+    margin: 0 auto;
+}
+.auth__form{
+    display: flex;
+    align-items: center;
+}
+.auth__body__right button{
+    width: 200px;
+    height: 40px;
+    border: none;
+    outline: none;
+    background-color: gray;
+    color: #fff;
+    border-radius: 5px;
+}
+.auth__form input{
+    width: 200px;
+    height: 25px;
+    padding-left: 10px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+.auth__form h4{
+    width: 110px;
+
+}
+.auth_gender{
+    display: flex;
+    align-items: center;
+    width: 280px;
+    justify-content: space-between;
+}
+.auth_cont h4{
+    font-family: sans-serif;
+    margin:0;
+    padding-top: 15px;
+}
+.rem_pass{
+    display: flex;
+    align-items: center;
+    height: 30px;
+}
+.auth_cont input{
+    width: 200px;
+    height: 25px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid gray;
+}
+.rem_pass h4{
+    font-family: sans-serif;
+}
+.rem_pass_input{
+    width: 15px !important;
+    height: 15px  !important;
+    margin-top: 15px;
+}
