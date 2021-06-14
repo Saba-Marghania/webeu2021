@@ -1,0 +1,265 @@
+*{
+    margin: 0 ;
+    padding: 0;
+}
+body,html{
+    overflow-x: hidden;
+}
+.logo{
+    padding-left: 50px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 110px;
+    background-color: rgb(74, 150, 74);
+}
+.form h4:hover{
+    background-color: rgb(192, 191, 191);
+}
+.header_cont{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+}
+.form{
+    display: flex;
+}
+.form h4{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+    margin-left: 15px;
+    border-radius: 15px;
+    cursor: pointer;
+    height: 30px;
+    padding: 5px;
+    font-family: sans-serif;
+}
+.login{
+}
+.logo h1{
+    font-family: sans-serif;
+    font-style: italic;
+}
+.logo p{
+    color: #fff;
+}
+.body__content li{
+    background-color: rgb(60, 41, 145);
+    list-style: none;
+    padding: 5px;
+    width: 200px;
+    border: 1px solid rgb(6, 20, 66);
+}
+.body__content{
+    display: flex;
+    flex-wrap: wrap;
+}
+.game-cont{
+    display: flex;
+    flex-direction: column;
+}
+.body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.body-image{
+    height: auto;
+    width:100%; 
+}
+.body-gamecont{
+    max-width: 750px;
+    height: fit-content;
+    margin-bottom: 50px;
+}
+.game_title h3{
+    font-family: sans-serif;
+    padding: 5px;
+}
+.game-img img{
+    border-radius: 15px;
+}
+.game_moreinfo{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+    margin-top: 15px;
+    font-family: sans-serif;
+}
+.comment_view{
+    display: flex;
+}
+.body__image img{
+    width: 100%;
+    height: fit-content;
+}
+.comment_view h3{
+    margin-left: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+    width: 150px;
+    height: 40px;
+    border-radius: 15px;
+    color: #fff;
+    background-color: darkcyan;
+}
+.game_moreinfo h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+    width: 150px;
+    height: 40px;
+    border-radius: 15px;
+    color: #fff;
+    background-color: lawngreen;
+}
+.game_author{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    border-radius: 15px;
+    width: 330px;
+    background-color: rgb(235, 235, 235);
+}
+.game_author h3{
+    margin-left: 120px;
+}
+.game-body{
+    display: flex;
+    margin: 5px;
+}
+.game-info{
+    margin:15px 15px;
+}
+.body__content a{
+    text-decoration: none;
+    color: #fff;
+    width: 300px;
+    height: 40px;
+    padding-left: 20px;
+    font-size: 18px;
+}
+aside{
+    width: 250px;
+    display: flex;
+    height: 200px;
+    flex-direction: column;
+    border-left: 5px solid black;
+}
+aside li:hover{
+    border-left: 5px solid green;
+}
+aside li{
+    cursor: pointer;
+}
+.top-games{
+    width: 300px;
+    height: 300px;
+    padding: 6px;
+    border-radius: 15px;
+    background-color: rgb(26, 24, 24);
+}
+.top-games li{
+    list-style: none;
+    font-size: 18px;
+    padding: 12px;
+    cursor: pointer;
+    border-top: 1px solid rgb(122, 122, 122);
+}
+.top-games li:hover{
+    background-color: gray;
+}
+.top-games a{
+    text-decoration: none;
+    color: #fff;
+}
+.top-games h3{
+    color: #fff;
+    font-family: sans-serif;
+    padding: 4px;
+    padding-left: 15px;
+}
+footer{
+    display: flex;
+    color: #fff;
+    height: fit-content;
+    padding: 25px;
+    margin-top: 50px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(56, 148, 56);
+}
+.links{
+    display: flex;
+    margin-right: 30px;
+}
+.links li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 30px;
+    list-style: none;
+    border-radius: 15px;
+    margin-left: 25px;
+}
+.body__content_cont{
+    height: fit-content;
+}
+.links a{
+    color: #fff;
+    text-decoration: none;
+}
+.links li:hover{
+    background-color: gray;
+}
+@media only screen and (max-width: 850px) {
+  .game-body{
+      flex-wrap: wrap;
+  }
+  footer,
+  .links{
+      flex-direction: column;
+  }
+  .game_moreinfo{
+    flex-direction: column;
+    height: 100px;
+  }
+  .game-img,
+  .game_author,
+  .top-games,
+  .body__content_cont{
+    margin: 0 auto;
+}
+.body__content{
+    text-align: center;
+}
+.form{
+    justify-content: center;
+}
+aside{
+    width: auto;
+}
+
+  }
+
+  @media only screen and (max-width: 500px) {
+ header{
+     justify-content: center;
+ }
+ .header_cont{
+     width: fit-content;
+     flex-direction: column;
+ }
+ 
+ 
+    }
